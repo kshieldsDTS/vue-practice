@@ -1,6 +1,6 @@
 <template>
     <div :key='task.id' v-for="task in tasks">
-        <TaskView :task="task"/>
+        <TaskView @delete-task="$emit('delete-task', task.id)" :task="task"/>
     </div>
 </template>
 
@@ -14,6 +14,7 @@ import TaskView from "./TaskView.vue"
         },
         components: {
             TaskView
-        }
+        },
+        emits: ['delete-task'],
     }
 </script>
