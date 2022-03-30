@@ -1,12 +1,20 @@
 <template>
     <header>
-        <h1>Task Tracker</h1>
+        <h1>{{ title }}</h1>
+        <AppButton text="Add Task" color='green'/>
     </header>
 </template>
 
 <script>
+import AppButton from './AppButton'
     export default {
         name: 'PageHeader',
+        props: {
+            title: String,
+        },
+        components: {
+            AppButton
+        }
     }
 </script>
 
