@@ -1,24 +1,5 @@
-# crash
+# Vue Practice
 
-## Project setup
-```
-npm install
-```
+Giving Vue a crack to see how it compares to React! Vue Practice is simply using the framework to build out a very simple Todo List.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+I followed along with this [Youtube Video](https://www.youtube.com/watch?v=qZXt1Aom3Cs) by Traversy Media. Check out Traversy Media's [channel](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA) and [GitHub](https://github.com/bradtraversy).
