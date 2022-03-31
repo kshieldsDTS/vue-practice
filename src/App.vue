@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <Header @toggle-add-task="toggleAddTask" title="Task Tracker" />
+    <Header @toggle-add-task="toggleAddTask" title="Task Tracker" :showAddTask="showAddTask" />
     <div v-if='showAddTask'>
        <AddTask @add-task='addTask' />
     </div>
@@ -18,7 +18,7 @@ export default {
   components: {
     Header,
     TaskList,
-    AddTask
+    AddTask,
   },
   data() {
     return {
